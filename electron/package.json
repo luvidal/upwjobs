@@ -1,0 +1,17 @@
+{
+  "name": "upwjobs_app",
+  "version": "1.0.0",
+  "description": "An Electron app that executes my my Vue webpage",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . 'Upwork Jobs' --platform=darwin --overwrite --arch=x64 --out=dist/ --icon=assets/favicon.icns"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^27.0.0",
+    "electron-packager": "^17.1.2"
+  }
+}

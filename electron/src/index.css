@@ -1,0 +1,43 @@
+body, html, #app {
+  width:100%; height:100%;
+  margin:0px;
+  background-color:#18232e;
+  color:white;
+
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#app {
+  display:flex;
+}
+
+button {
+  padding:15px;
+  background-color:green;
+  cursor:pointer;
+}
+
+input {
+  padding:8px 26px;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+button, input {
+  border:none;
+  border-radius:100px;
+
+  color:white;
+  font-size:1.01rem;
+}
+
+label {
+  font-size:1.01rem;
+}
+
+.truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
